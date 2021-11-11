@@ -1,6 +1,6 @@
 # Layout Project 1
 
-- ## [site link](https://vladimir21500.github.io/layout-project-1/)
+## [Site link](https://vladimir21500.github.io/layout-project-1/)
 
 Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
 
