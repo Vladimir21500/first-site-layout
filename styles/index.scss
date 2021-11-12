@@ -6,23 +6,20 @@
 @import 'features.scss';
 @import 'inbox.scss';
 @import 'audience.scss';
+@import 'hiring.scss';
 @import 'order.scss';
 @import 'footer.scss';
 @import 'header.scss';
 @import 'headline.scss';
 @import 'tips.scss';
-
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Work Sans', sans-serif;
 }
-
 html {
   font-size: 16px;
-  font-family: 'Work Sans', sans-serif;
 }
 .page {
   width: 100%;
@@ -43,4 +40,7 @@ html {
     padding-top: 39px;
     height: 710px;
   }
+}
+button {
+  cursor: pointer;
 }

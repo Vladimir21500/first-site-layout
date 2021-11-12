@@ -6,6 +6,7 @@
     font-size: 50px;
     line-height: 50px;
     letter-spacing: -0.3125px;
+    color: $text-dark;
 
     @include for-large-up {
       margin: 0;

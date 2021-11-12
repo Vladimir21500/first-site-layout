@@ -108,14 +108,14 @@
     margin: auto;
     width: 1140px;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 106px;
+    padding-top: 43px;
   }
 }
 
 .features {
   display: flex;
   position: relative;
+  padding-top: 106 px;
 }
 .features__content {
   display: flex;
@@ -321,11 +321,11 @@
 }
 @media screen and (min-width: 1400px) {
   .audience {
-    padding-top: 108px;
-    padding-bottom: 110px;
+    padding: 108px 131px 110px 130px;
   }
 }
 .audience__subtitle {
+  margin: 0;
   font-weight: bold;
   font-size: 22px;
   line-height: 34px;
@@ -391,7 +391,6 @@
   .audience__cards {
     display: flex;
     margin: auto;
-    margin-left: 130px;
     margin-top: 129px;
   }
 }
@@ -409,18 +408,187 @@
 @media screen and (min-width: 1400px) {
   .audience__card:first-child {
     margin-top: 0;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__card:nth-child(3) {
+    margin-left: 31px;
   }
 }
 @media screen and (min-width: 1400px) {
   .audience__card {
     width: 262px;
     margin-top: 0;
-    margin-left: 31px;
+    margin-left: 30px;
   }
 }
 .audience__img {
   margin: auto;
   margin-top: 22px;
+}
+
+.hiring {
+  padding: 50px 15px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring {
+    padding: 106px 325px 110px;
+  }
+}
+.hiring__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+  color: #2b292d;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__title {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+  }
+}
+.hiring__text {
+  margin-top: 18px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #2b292d;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__text {
+    margin: auto;
+    margin-top: 20px;
+    width: 555px;
+    height: 72px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .hiring__more-btn {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__more-btn {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 247px;
+  }
+}
+.hiring__vacancy {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  max-height: 140px;
+  border: 1px solid #2b292d33;
+  border-radius: 8px;
+}
+.hiring__vacancy:first-child {
+  margin-top: 39px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy:first-child {
+    margin-top: 110px;
+    margin-left: 0;
+  }
+}
+.hiring__vacancy:hover {
+  background-color: #3142c6;
+}
+.hiring__vacancy:hover .hiring__vacancy-arrow {
+  background-color: #3142c6;
+}
+.hiring__vacancy:hover .hiring__vacancy-name {
+  color: #ffffff;
+}
+.hiring__vacancy:hover .hiring__vacancy-descr {
+  color: #ffffff;
+  opacity: 1;
+}
+.hiring__vacancy:hover .hiring__vacancy-arrow-icon {
+  display: none;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy:hover .hiring__vacancy-arrow-white {
+    display: block;
+    width: 7px;
+    height: 12px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy {
+    margin-top: 20px;
+    max-width: 750px;
+    max-height: 81px;
+  }
+}
+.hiring__vacancy-info {
+  height: 140px;
+  padding: 19px 21px 19px 20px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy-info {
+    display: flex;
+    justify-content: space-between;
+    width: 685px;
+    padding: 26px 0 26px 25px;
+    height: 29px;
+  }
+}
+.hiring__vacancy-name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2b292d;
+}
+.hiring__vacancy-descr {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2b292d;
+  opacity: 0.6;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy-descr {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 24px;
+    width: 232px;
+  }
+}
+.hiring__vacancy-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  min-width: 50px;
+  background: #d5d4d5;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+.hiring__vacancy-arrow-icon {
+  width: 7px;
+  height: 12px;
+}
+@media screen and (max-width: 1399px) {
+  .hiring__vacancy-arrow-white {
+    display: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy-arrow {
+    margin-right: 0;
+    min-width: 65px;
+    min-height: 78px;
+    background-color: #ffffff;
+  }
 }
 
 .order {
@@ -512,6 +680,11 @@
   flex-direction: column;
   margin-top: auto;
 }
+@media screen and (min-width: 1400px) {
+  .footer {
+    padding: 43px 226px 0 130px;
+  }
+}
 .footer__navigation {
   display: flex;
   margin-top: 0 auto;
@@ -534,6 +707,7 @@
   line-height: 26px;
   font-size: 18px;
   width: 360px;
+  margin: 0;
   margin-top: 26px;
   color: rgba(43, 41, 45, 0.6);
 }
@@ -574,11 +748,6 @@
     width: 1140px;
   }
 }
-@media screen and (min-width: 1400px) {
-  .footer {
-    margin-left: 130px;
-  }
-}
 @media screen and (max-width: 1399px) {
   .footer .logo {
     display: none;
@@ -593,7 +762,6 @@
 @media screen and (min-width: 1400px) {
   .about-company {
     margin: 0;
-    margin-top: 44px;
   }
 }
 
@@ -623,7 +791,7 @@
   .additional-navigation {
     flex-direction: row;
     margin-left: auto;
-    margin-top: 60px;
+    margin-top: 18px;
   }
 }
 
@@ -831,6 +999,7 @@
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
+  color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -985,7 +1154,6 @@ body {
 
 html {
   font-size: 16px;
-  font-family: "Work Sans", sans-serif;
 }
 
 .page {
@@ -1010,6 +1178,10 @@ html {
     padding-top: 39px;
     height: 710px;
   }
+}
+
+button {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
