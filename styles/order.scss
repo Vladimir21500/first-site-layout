@@ -11,10 +11,13 @@
 
   &__details {
     max-width: 555px;
+    margin: auto;
   }
 
   &__ilustration {
     min-width: 200px;
+    margin: auto;
+    display: block;
 
     @include for-large-up {
       max-width: 269px;

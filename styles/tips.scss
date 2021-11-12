@@ -35,14 +35,16 @@
     margin: 0;
   }
   &__image {
+    display: block;
     margin-top: 29px;
+    margin: auto;
 
     &-caption {
       margin-top: 19px;
       font-size: 14px;
       line-height: 22px;
       text-align: center;
-      color: #2c324114;
+      color: $text-dark;
     }
   }
 }

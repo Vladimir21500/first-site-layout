@@ -8,6 +8,8 @@
   }
 
   &__ilustration {
+    display: block;
+    margin: auto;
     height: 348px;
     width: 290px;
 
@@ -57,12 +59,22 @@
     color: $text-dark;
   }
   &__comment {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
     padding: 30px 20px;
     height: 321px;
     background-color: $color-white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-bottom: 4px solid $border-color-blue;
+
+    @include for-large-up {
+      justify-content: space-between;
+      width: 519px;
+      height: 213px;
+      padding: 30px 30px 28px;
+    }
 
     &-text {
       margin: 0;
@@ -73,15 +85,6 @@
       &-bold {
         font-weight: 700;
       }
-    }
-
-    @include for-large-up {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 519px;
-      height: 213px;
-      padding: 30px 30px 28px;
     }
   }
   &__user {

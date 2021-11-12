@@ -47,6 +47,7 @@
   &__vacancy {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 15px;
     max-height: 140px;
     border: 1px solid $border-color;
@@ -60,36 +61,34 @@
         margin-left: 0;
       }
     }
-
-    &:hover {
-      background-color: $text-color-blue;
-
-      .hiring__vacancy-arrow {
-        background-color: $text-color-blue;
-      }
-      .hiring__vacancy-name {
-        color: $color-white;
-      }
-      .hiring__vacancy-descr {
-        color: $color-white;
-        opacity: 1;
-      }
-      .hiring__vacancy-arrow-icon {
-        display: none;
-      }
-      .hiring__vacancy-arrow-white {
-        @include for-large-up {
-          display: block;
-          width: 7px;
-          height: 12px;
-        }
-      }
-    }
-
     @include for-large-up {
       margin-top: 20px;
       max-width: 750px;
       max-height: 81px;
+      &:hover {
+        background-color: $text-color-blue;
+
+        .hiring__vacancy-arrow {
+          background-color: $text-color-blue;
+        }
+        .hiring__vacancy-name {
+          color: $color-white;
+        }
+        .hiring__vacancy-descr {
+          color: $color-white;
+          opacity: 1;
+        }
+        .hiring__vacancy-arrow-icon {
+          display: none;
+        }
+        .hiring__vacancy-arrow-white {
+          @include for-large-up {
+            display: block;
+            width: 7px;
+            height: 12px;
+          }
+        }
+      }
     }
 
     &-info {
@@ -99,6 +98,7 @@
       @include for-large-up {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         width: 685px;
         padding: 26px 0 26px 25px;
         height: 29px;
