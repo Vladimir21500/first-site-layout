@@ -1,17 +1,6 @@
 @import 'variables.scss';
 @import 'breakpoints.scss';
-@import 'common.scss';
-@import 'about.scss';
-@import 'customers.scss';
-@import 'features.scss';
-@import 'inbox.scss';
-@import 'audience.scss';
-@import 'hiring.scss';
-@import 'order.scss';
-@import 'footer.scss';
-@import 'header.scss';
-@import 'headline.scss';
-@import 'tips.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -44,3 +33,15 @@ html {
 button {
   cursor: pointer;
 }
+@import 'common.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'inbox.scss';
+@import 'audience.scss';
+@import 'hiring.scss';
+@import 'order.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'tips.scss';

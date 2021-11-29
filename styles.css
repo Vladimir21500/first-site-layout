@@ -1,3 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+.page {
+  width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+  }
+}
+
+.top-section {
+  background-color: #f3c6bd;
+}
+@media screen and (min-width: 1400px) {
+  .top-section {
+    background-color: #f3c6bd;
+    padding-top: 39px;
+    height: 710px;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
 .action-button {
   width: 160px;
   height: 48px;
@@ -1155,46 +1195,6 @@
   line-height: 22px;
   text-align: center;
   color: #2b292d;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Work Sans", sans-serif;
-}
-
-html {
-  font-size: 16px;
-}
-
-.page {
-  width: 100%;
-}
-@media screen and (min-width: 1400px) {
-  .page {
-    display: flex;
-    flex-direction: column;
-    width: 1400px;
-    margin: auto;
-    min-height: 100vh;
-  }
-}
-
-.top-section {
-  background-color: #f3c6bd;
-}
-@media screen and (min-width: 1400px) {
-  .top-section {
-    background-color: #f3c6bd;
-    padding-top: 39px;
-    height: 710px;
-  }
-}
-
-button {
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
