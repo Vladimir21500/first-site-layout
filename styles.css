@@ -441,6 +441,7 @@ button {
 }
 .audience__card {
   display: flex;
+  flex-direction: column;
   margin-top: 15px;
   height: 300px;
   background-color: #ffffff;
@@ -449,6 +450,9 @@ button {
 }
 .audience__card:hover {
   background-color: #3142c6;
+}
+.audience__card:hover .audience__card-caption {
+  color: #ffffff;
 }
 .audience__card:first-child {
   margin-top: 40px;
@@ -464,6 +468,14 @@ button {
     margin-left: 31px;
   }
 }
+.audience__card-caption {
+  margin-top: 22px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #2b292d;
+}
 @media screen and (min-width: 1400px) {
   .audience__card {
     width: 262px;
@@ -474,6 +486,7 @@ button {
 .audience__img {
   margin: auto;
   margin-top: 22px;
+  margin-bottom: 0;
 }
 
 .hiring {
