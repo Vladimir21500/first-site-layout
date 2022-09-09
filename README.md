@@ -1,4 +1,4 @@
-# Layout Project 1
+# My first site layout
 
 ## [Site link](https://vladimir21500.github.io/layout-project-1/)
 
